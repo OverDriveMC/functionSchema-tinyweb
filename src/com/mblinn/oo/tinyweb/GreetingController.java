@@ -32,7 +32,6 @@ public class GreetingController extends TemplateController{
 		String []greetings={"Hello","Greetings","Salutations","Hola"};
 		String greetingPrefix=greetings[random.nextInt(4)];
 		return String.format("%s, %s",greetingPrefix,name );
-		
 	}
 	
 }
