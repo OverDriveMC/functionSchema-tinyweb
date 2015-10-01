@@ -1,0 +1,2 @@
+# functionSchema-tinyweb
+function schema
