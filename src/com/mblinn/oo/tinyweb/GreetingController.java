@@ -23,7 +23,7 @@ public class GreetingController extends TemplateController{
 		String[]names=namesCommaSeperated.split(",");
 		List<String>greetings=new ArrayList<String>();
 		for(String name : names){
-			greetings.add(name);
+			greetings.add(makeGreeting(name));
 		}
 		return greetings;
 	}
